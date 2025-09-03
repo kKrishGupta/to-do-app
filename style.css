@@ -107,3 +107,34 @@ ul li span:hover{
   background: #edeef0;
 
 }
+/* for mobile screen  */
+@media(max-width: 600px){
+ .todo-app {
+    margin: 50px 10px 20px;   /* less margin on small screens */
+    padding: 20px 15px 40px;  /* tighter padding */
+  }
+  .row {
+    flex-direction: column;   /* stack input and button vertically */
+    padding-left: 10px;
+  }
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+button {
+    width: 100%;              /* button full width */
+    padding: 12px 0;
+    font-size: 14px;
+  }
+  ul li {
+    font-size: 15px;
+    padding: 10px 8px 10px 45px;
+  }
+    ul li::before {
+    height: 24px;
+    width: 24px;
+    top: 10px;
+    left: 6px;
+  }
+}
