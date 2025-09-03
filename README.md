@@ -25,4 +25,4 @@ It allows users to add, check/uncheck, and delete tasks. Tasks are also stored i
 <img src="screen.png" alt ="screenshot of project" width = 300>
 
 ##Live link of my project
-[click to view my live project](to-do-app-beta-inky.vercel.app)
+[click to view my live project](https://kkrishgupta.github.io/to-do-app);
